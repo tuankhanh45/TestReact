@@ -1,28 +1,23 @@
 import React from 'react';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import NotFound from './components/NotFound';
+import HomePage from './pages/HomePage/HomePage';
+import NotFound from './pages/NotFound/404Page';
+import ProductListPage from './pages/ProductListPage/ProductListPage'
+
 const routes = [
     {
-        path:'/',
-        exact:true,
-        main: ()=><Home/>
+        path: '/',
+        exact: true,
+        main: () => <HomePage />
     },
     {
-        path:'/contact',
-        exact:false,
-        main: ()=><Contact/>
+        path: '/product-list',
+        exact: false,
+        main: () => <ProductListPage />
     },
     {
-        path:'/about',
-        exact:false,
-        main: ()=><About/>
-    },
-    {
-        path:'',
-        exact:false,
-        main: ()=><NotFound/>
+        path: '',
+        exact: false,
+        main: () => <NotFound />
     },
 ];
 export default routes;
