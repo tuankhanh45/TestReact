@@ -1,10 +1,16 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "ipx",
-            "price": 400,
-            "status": true
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "ipx",
+      "price": 400,
+      "status": true
+    },
+    {
+      "name": "ss7",
+      "price": "400",
+      "status": true,
+      "id": 2
+    }
+  ]
 }
