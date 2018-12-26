@@ -12,8 +12,8 @@ class ProductList extends Component {
             <thead>
               <tr>
                 <th>STT</th>
-                <th>Name</th>
                 <th>Id</th>
+                <th>Name</th>
                 <th>Price</th>
                 <th>States</th>
                 <th>Actions</th>

@@ -1,0 +1,10 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "ipx",
+            "price": 400,
+            "status": true
+        }
+    ]
+}
